@@ -1,0 +1,65 @@
+@media  screen and (max-width: 600px) {
+    #hero{
+        padding: 0;
+        flex-direction: column;  
+        /* background-color: red;  */
+    }
+    #hero-left{
+        order:2 ;
+    }
+    #hero-right{
+        order: 1;
+    }
+
+     /* hero top  */
+    #hero-right{
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .profile-pic{
+        min-height: 250px;
+        min-width: 250px;
+        margin-top: 25px;
+    }
+    #day-night{
+        position: absolute;
+        width: 30px;
+        height: 20px;
+        top: 30px;
+        right: 30px;
+    }
+
+    /* hero bottom  */
+    #hero-left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #hero-card{
+        /* background-color: red; */
+        width: 100%;
+        padding-top: 10px;
+    }
+    #hero-card h1{
+        font-size: 40px;
+        letter-spacing: 0;
+        line-height: 1em;
+
+    }
+    #hero-card h2{
+        margin: 0px;
+        font-size: 20px;
+    }
+    .hero-icon{
+        padding: 20px;
+        justify-content: space-evenly;
+    }
+    .hero-bio{
+        padding: 10px 50px;
+    }
+    #hero-left .btn{
+        margin-top: 0px ;
+    }
+}

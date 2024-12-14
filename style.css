@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f5f5;
+    font-family: "Exo 2", sans-serif;
+    color: #000;
+}
+
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 0px 40px;
+}
+
+
+/* hero right */
+
+#hero-right{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.profile-pic{
+    height: 37vw;
+    min-width: 37vw;
+    border-radius: 50%;
+}
+
+#day-night{
+    position: absolute;
+    /* position: relative; */
+    top: 60px;
+    right: 70px;
+    border-radius: 40px;
+    height: 30px;
+    width: 50px;
+    /* background-color: black; */
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+}
+
+#day-night:active{
+    transform: scale(0.9);
+}
+
+        /* hero left  */
+        
+#hero-left{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero-card{
+    /* background-color: red; */
+    height: 600px;
+    width: 400px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-card h1{
+    font-size: 4.6rem;
+    font-weight:800;
+    letter-spacing: 5px;
+    line-height:1.1em;
+}
+
+#hero-card h1:nth-child(2){
+    /* background-color: red; */
+    margin-bottom: 0.222em;
+}
+
+#hero-card h2{
+    word-spacing: 10px;
+    margin: 20px 0px ;
+    font-size: 29px;
+    font-weight: 790;
+}
+
+.hero-icon{
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.hero-icon a{
+    text-decoration: none;
+}
+
+.hero-icon a i{
+    color: black;
+    font-size: 30px;
+    transition: transform 0.2s ease;
+}
+
+.hero-icon a i:active{
+    transform: scale(0.8);
+}
+
+.hero-bio{
+    /* background-color: aqua; */
+    text-align: center;
+    padding: 20px 50px;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+}
+
+#hero-left .btn{
+    z-index: 10;
+    height: 50px;
+    width: 125px;
+    background-color: rgb(71, 71, 232); 
+    font-size: 16px;
+    font-weight: 520;
+    color: white;
+    border-radius: 30px;
+    border: none;
+
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    margin-top: 30px ;
+    
+    cursor:pointer;
+    transition: transform 0.2 ease;
+}
+
+.btn:active{
+    transform: scale(.95);
+}
